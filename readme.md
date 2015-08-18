@@ -1,5 +1,7 @@
 # Words and Pig Latin
 
+[gh-pages](http://ga-dc.github.io/pig_latin_js/)
+
 I've created a `Word` that is a wrapper for a string. Your job will be to implement a method `piglatinize` that returns the Pig Latin equivalent of the word.
 
 Description of the rules from Wikipedia:
