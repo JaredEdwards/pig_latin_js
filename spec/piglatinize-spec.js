@@ -23,4 +23,9 @@ describe("piglatinize", function(){
       expect(piglatinize("rhythm")).toEqual("ythmrhay")
     })
   })
+  describe("a word with a u preceded by a q", function(){
+    it("takes the q with it", function(){
+      expect(piglatinize("queen")).toEqual("eenquay") 
+    })
+  })
 })
