@@ -10,4 +10,9 @@ describe("piglatinize", function(){
       expect(piglatinize("happy")).toEqual("appyhay")
     })
   })
+  describe("a word that starts with multiple consonants", function(){
+    it("moves the consonants to the end and adds ay", function(){
+      expect(piglatinize("glove")).toEqual("oveglay")
+    })
+  })
 })
