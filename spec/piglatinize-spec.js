@@ -15,4 +15,12 @@ describe("piglatinize", function(){
       expect(piglatinize("glove")).toEqual("oveglay")
     })
   })
+  describe("a word with a y in it", function(){
+    it("acts as a consonant if it's the first letter", function(){
+      expect(piglatinize("yellow")).toEqual("ellowyay")
+    })
+    it("acts as a vowel if it's not the first letter", function(){
+      expect(piglatinize("rhythm")).toEqual("ythmrhay")
+    })
+  })
 })
