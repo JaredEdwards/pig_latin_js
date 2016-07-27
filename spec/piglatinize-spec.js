@@ -27,5 +27,8 @@ describe("piglatinize", function(){
     it("takes the q with it", function(){
       expect(piglatinize("queen")).toEqual("eenquay")
     })
+    it("takes the q with it", function(){
+      expect(piglatinize("squeal")).toEqual("ealsquay")
+    })
   })
 })
