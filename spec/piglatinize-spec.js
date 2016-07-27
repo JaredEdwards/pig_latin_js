@@ -5,4 +5,9 @@ describe("piglatinize", function(){
       expect(piglatinize("egg")).toEqual("eggway")
     })
   })
+  describe("a word that starts with a consonant", function(){
+    it("moves the consonant to the end and adds ay", function(){
+      expect(piglatinize("happy")).toEqual("appyhay")
+    })
+  })
 })
