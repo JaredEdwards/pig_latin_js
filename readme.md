@@ -30,3 +30,7 @@ How do you deal with words starting with "qu" or "squ" ?
 
 * "queen" → "eenquay"
 * "squeal" → "ealsquay"
+
+### Here's one solution:
+
+https://ga-wdi-exercises.github.io/pig_latin_js/
